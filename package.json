@@ -1,0 +1,32 @@
+{
+  "name": "api-nodejs",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItsFranco666/Api-con-NodeJS-y-POSTMAN.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "js",
+    "postman",
+    "thunderclient",
+    "node",
+    "web"
+  ],
+  "author": "Andres Felipe Franco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItsFranco666/Api-con-NodeJS-y-POSTMAN/issues"
+  },
+  "homepage": "https://github.com/ItsFranco666/Api-con-NodeJS-y-POSTMAN#readme",
+  "description": ""
+}
