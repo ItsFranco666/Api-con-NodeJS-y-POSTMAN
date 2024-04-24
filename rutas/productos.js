@@ -102,6 +102,7 @@ router.delete('/:id', function (req, res) {
 		return item.id === parseInt(req.params.id);
 	});
 
+	// si se encuentra se hara el envio de un elemento vacio para que de este modo se "elimine" el registro
 	if (found) {
 		let targetIndex = data.indexOf(found);
 
@@ -112,4 +113,5 @@ router.delete('/:id', function (req, res) {
 	}
 });
 
+// exportacion del modulo para ser usado en server.js
 module.exports = router;
